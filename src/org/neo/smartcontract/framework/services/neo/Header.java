@@ -1,4 +1,4 @@
-﻿package org.neo.smartcontract.framework.services.neo;
+package org.neo.smartcontract.framework.services.neo;
 
 import org.neo.smartcontract.framework.*;
 
@@ -24,3 +24,4 @@ public class Header implements ScriptContainer {
 	@Syscall("Neo.Header.GetNextConsensus")
 	public native byte[] nextConsensus();
 }
+

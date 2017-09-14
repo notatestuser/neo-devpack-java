@@ -1,4 +1,4 @@
-﻿package org.neo.smartcontract.framework.services.neo;
+package org.neo.smartcontract.framework.services.neo;
 
 import org.neo.smartcontract.framework.Syscall;
 
@@ -34,3 +34,4 @@ public class Asset {
 	@Syscall("Neo.Asset.Renew")
 	public native int renew(byte years);
 }
+

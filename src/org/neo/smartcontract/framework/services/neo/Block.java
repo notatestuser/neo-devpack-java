@@ -1,4 +1,4 @@
-﻿package org.neo.smartcontract.framework.services.neo;
+package org.neo.smartcontract.framework.services.neo;
 
 import org.neo.smartcontract.framework.Syscall;
 
@@ -12,3 +12,4 @@ public class Block extends Header {
 	@Syscall("Neo.Block.GetTransaction")
 	public native Transaction getTransaction(int index);
 }
+

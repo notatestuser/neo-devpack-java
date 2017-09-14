@@ -1,4 +1,4 @@
-﻿package org.neo.smartcontract.framework.services.neo;
+package org.neo.smartcontract.framework.services.neo;
 
 import org.neo.smartcontract.framework.Syscall;
 
@@ -20,3 +20,4 @@ public class Contract {
 	@Syscall("Neo.Contract.Destroy")
 	public native static void destroy();
 }
+

@@ -1,4 +1,4 @@
-﻿package org.neo.smartcontract.framework.services.neo;
+package org.neo.smartcontract.framework.services.neo;
 
 import org.neo.smartcontract.framework.*;
 
@@ -21,3 +21,4 @@ public class Transaction implements ScriptContainer {
 	@Syscall("Neo.Transaction.GetReferences")
 	public native TransactionOutput[] references();
 }
+

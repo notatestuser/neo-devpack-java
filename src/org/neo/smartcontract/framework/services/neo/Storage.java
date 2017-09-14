@@ -1,4 +1,4 @@
-﻿package org.neo.smartcontract.framework.services.neo;
+package org.neo.smartcontract.framework.services.neo;
 
 import java.math.BigInteger;
 import org.neo.smartcontract.framework.Syscall;
@@ -37,3 +37,4 @@ public final class Storage {
 	@Syscall("Neo.Storage.Delete")
 	public native static void delete(StorageContext context, String key);
 }
+

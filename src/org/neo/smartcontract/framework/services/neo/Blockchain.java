@@ -1,4 +1,4 @@
-﻿package org.neo.smartcontract.framework.services.neo;
+package org.neo.smartcontract.framework.services.neo;
 
 import org.neo.smartcontract.framework.Syscall;
 
@@ -33,3 +33,4 @@ public class Blockchain {
 	@Syscall("Neo.Blockchain.GetContract")
 	public native static Contract getContract(byte[] script_hash);
 }
+

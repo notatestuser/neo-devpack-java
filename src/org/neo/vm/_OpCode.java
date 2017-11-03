@@ -124,16 +124,20 @@ public enum _OpCode
     PICKITEM(0xC3),
     SETITEM(0xC4),
     NEWARRAY(0xC5),
-    NEWSTRUCT(0xC6);
+    NEWSTRUCT(0xC6),
 
-    
+    // Exceptions
+    THROW(0xF0),
+    THROWIFNOT(0xF1);
+
+
 	private int value;
 
 	private _OpCode(int value)
 	{
 		this.value = value;
 	}
-	
+
 	private _OpCode(_OpCode op)
 	{
 		this.value = op.value;
